@@ -32,15 +32,15 @@ public class QueueSystem {
 }
 
 class HelpDesk{
-    private final String hdNum;
+    private final String helpDesk;
 
     public HelpDesk(String hdNum) {
-        this.hdNum = hdNum;
+        this.helpDesk = hdNum;
     }
 
     public void servingNext() {
         int queueNum = QueueSystem.getInstance().getNextQueueNumber();
-        System.out.println(hdNum + " is currently serving: " + queueNum);
+        System.out.println(helpDesk + " is currently serving: " + queueNum);
     }
 }
 
