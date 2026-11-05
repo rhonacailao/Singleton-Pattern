@@ -34,8 +34,8 @@ public class QueueSystem {
 class HelpDesk{
     private final String helpDesk;
 
-    public HelpDesk(String hdNum) {
-        this.helpDesk = hdNum;
+    public HelpDesk(String helpDesk) {
+        this.helpDesk = helpDesk;
     }
 
     public void servingNext() {
